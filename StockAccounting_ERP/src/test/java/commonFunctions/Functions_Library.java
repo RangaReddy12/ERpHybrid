@@ -3,19 +3,19 @@ package commonFunctions;
 public class Functions_Library {
 public void add()
 {
-	int a=4556,b=987,c;
+	int a=2345,b=56,c;
 	c=a+b;
 	System.out.println(c);
 }
 public void division()
 {
-	int a=543,b=5,c;
+	int a=34567,b=2,c;
 	c=a+b;
 	System.out.println(c);
 }
 public void mul()
 {
-	int a=456,b=7,c;
+	int a=4567,b=4,c;
 	c=a+b;
 	System.out.println(c);
 }
