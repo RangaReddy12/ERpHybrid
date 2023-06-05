@@ -203,6 +203,10 @@ public static void stocktable(WebDriver driver) throws Throwable
 	System.out.println(Expected+"    "+Actual);
 	Assert.assertEquals(Expected, Actual,"Stock number is Not Matching");
 }
+public static void capturedata1(String Locator_Type,String Locator_value)
+{
+	String Expected =driver.findElement(By.xpath(Locator_value)).getAttribute("value");
+}
 }
 
 
